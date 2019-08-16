@@ -4,9 +4,11 @@
         <TargetFramework>netcoreapp2.2</TargetFramework>
         <IsPackable>false</IsPackable>
         <Authors />
-        <AssemblyName>ClassLibrary.UnitTests</AssemblyName>
-        <RootNamespace>ClassLibrary.UnitTests</RootNamespace>
-        <PackageId>ClassLibrary.UnitTests</PackageId>
+        <AssemblyName>GlitchedPolygons.ExtensionMethods.UnitTests</AssemblyName>
+        <RootNamespace>GlitchedPolygons.ExtensionMethods.UnitTests</RootNamespace>
+        <PackageId>GlitchedPolygons.ExtensionMethods.UnitTests</PackageId>
+        <Company>Glitched Polygons</Company>
+        <Product>GlitchedPolygons.ExtensionMethods.UnitTests</Product>
     </PropertyGroup>
 
     <ItemGroup>
@@ -16,7 +18,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\src\ClassLibrary.csproj" />
+      <ProjectReference Include="..\src\ExtensionMethods.csproj" />
     </ItemGroup>
 
 </Project>

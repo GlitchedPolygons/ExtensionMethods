@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "src\ClassLibrary.csproj", "{65DD39E0-DD15-45A3-B037-D43451272AC8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "src\ExtensionMethods.csproj", "{65DD39E0-DD15-45A3-B037-D43451272AC8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "tests\UnitTests.csproj", "{F0AF4A98-5D9D-46CA-AF84-2E9441FE5E59}"
 EndProject

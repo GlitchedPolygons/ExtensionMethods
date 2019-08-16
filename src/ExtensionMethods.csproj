@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Authors>Glitched Polygons</Authors>
+        <RootNamespace>GlitchedPolygons.ExtensionMethods</RootNamespace>
+        <AssemblyName>GlitchedPolygons.ExtensionMethods</AssemblyName>
+        <Title>GlitchedPolygons.ExtensionMethods</Title>
+        <PackageProjectUrl>https://github.com/GlitchedPolygons/ExtensionMethods</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/GlitchedPolygons/ExtensionMethods</RepositoryUrl>
+        <PackageTags>c# extension methods utility classes useful snippets code snippet</PackageTags>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <DocumentationFile>bin\Debug\netstandard2.0\$(AssemblyName).xml</DocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <DocumentationFile>bin\Release\netstandard2.0\$(AssemblyName).xml</DocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="BCrypt.Net-Next" Version="3.1.3" />
+    </ItemGroup>
+
+</Project>
