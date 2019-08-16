@@ -6,3 +6,5 @@
 [![CircleCI](https://circleci.com/gh/GlitchedPolygons/ExtensionMethods.svg?style=shield)](https://circleci.com/gh/GlitchedPolygons/ExtensionMethods) 
 
 # Useful extension methods for every day use in your C# projects.
+
+## namespace:  `GlitchedPolygons.ExtensionMethods`
