@@ -4,6 +4,7 @@
         <TargetFramework>netstandard2.0</TargetFramework>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Authors>Glitched Polygons</Authors>
+        <Company>Glitched Polygons</Company>
         <RootNamespace>GlitchedPolygons.ExtensionMethods</RootNamespace>
         <AssemblyName>GlitchedPolygons.ExtensionMethods</AssemblyName>
         <Title>GlitchedPolygons.ExtensionMethods</Title>
@@ -12,6 +13,7 @@
         <PackageTags>c# extension methods utility classes useful snippets code snippet</PackageTags>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+        <PackageIconUrl>https://media.githubusercontent.com/media/GlitchedPolygons/NugetIcons/661dca007a8e49de5e31e5be268b2550dfa2aea7/extension-methods.png</PackageIconUrl>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
