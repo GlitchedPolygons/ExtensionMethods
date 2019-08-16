@@ -1,0 +1,295 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: GlitchedPolygons.ExtensionMethods
+  name: GlitchedPolygons.ExtensionMethods
+  href: api/GlitchedPolygons.ExtensionMethods.html
+  commentId: N:GlitchedPolygons.ExtensionMethods
+  fullName: GlitchedPolygons.ExtensionMethods
+  nameWithType: GlitchedPolygons.ExtensionMethods
+- uid: GlitchedPolygons.ExtensionMethods.ByteArrayExtensions
+  name: ByteArrayExtensions
+  href: api/GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.html
+  commentId: T:GlitchedPolygons.ExtensionMethods.ByteArrayExtensions
+  fullName: GlitchedPolygons.ExtensionMethods.ByteArrayExtensions
+  nameWithType: ByteArrayExtensions
+- uid: GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.GetFileSizeString(System.Byte[])
+  name: GetFileSizeString(Byte[])
+  href: api/GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.html#GlitchedPolygons_ExtensionMethods_ByteArrayExtensions_GetFileSizeString_System_Byte___
+  commentId: M:GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.GetFileSizeString(System.Byte[])
+  name.vb: GetFileSizeString(Byte())
+  fullName: GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.GetFileSizeString(System.Byte[])
+  fullName.vb: GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.GetFileSizeString(System.Byte())
+  nameWithType: ByteArrayExtensions.GetFileSizeString(Byte[])
+  nameWithType.vb: ByteArrayExtensions.GetFileSizeString(Byte())
+- uid: GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.GetFileSizeString*
+  name: GetFileSizeString
+  href: api/GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.html#GlitchedPolygons_ExtensionMethods_ByteArrayExtensions_GetFileSizeString_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.GetFileSizeString
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.GetFileSizeString
+  nameWithType: ByteArrayExtensions.GetFileSizeString
+- uid: GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.UTF8GetString(System.Byte[])
+  name: UTF8GetString(Byte[])
+  href: api/GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.html#GlitchedPolygons_ExtensionMethods_ByteArrayExtensions_UTF8GetString_System_Byte___
+  commentId: M:GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.UTF8GetString(System.Byte[])
+  name.vb: UTF8GetString(Byte())
+  fullName: GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.UTF8GetString(System.Byte[])
+  fullName.vb: GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.UTF8GetString(System.Byte())
+  nameWithType: ByteArrayExtensions.UTF8GetString(Byte[])
+  nameWithType.vb: ByteArrayExtensions.UTF8GetString(Byte())
+- uid: GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.UTF8GetString*
+  name: UTF8GetString
+  href: api/GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.html#GlitchedPolygons_ExtensionMethods_ByteArrayExtensions_UTF8GetString_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.UTF8GetString
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.UTF8GetString
+  nameWithType: ByteArrayExtensions.UTF8GetString
+- uid: GlitchedPolygons.ExtensionMethods.CollectionExtensions
+  name: CollectionExtensions
+  href: api/GlitchedPolygons.ExtensionMethods.CollectionExtensions.html
+  commentId: T:GlitchedPolygons.ExtensionMethods.CollectionExtensions
+  fullName: GlitchedPolygons.ExtensionMethods.CollectionExtensions
+  nameWithType: CollectionExtensions
+- uid: GlitchedPolygons.ExtensionMethods.CollectionExtensions.IsNullOrEmpty*
+  name: IsNullOrEmpty
+  href: api/GlitchedPolygons.ExtensionMethods.CollectionExtensions.html#GlitchedPolygons_ExtensionMethods_CollectionExtensions_IsNullOrEmpty_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.CollectionExtensions.IsNullOrEmpty
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.CollectionExtensions.IsNullOrEmpty
+  nameWithType: CollectionExtensions.IsNullOrEmpty
+- uid: GlitchedPolygons.ExtensionMethods.CollectionExtensions.IsNullOrEmpty``1(System.Collections.Generic.ICollection{``0})
+  name: IsNullOrEmpty<T>(ICollection<T>)
+  href: api/GlitchedPolygons.ExtensionMethods.CollectionExtensions.html#GlitchedPolygons_ExtensionMethods_CollectionExtensions_IsNullOrEmpty__1_System_Collections_Generic_ICollection___0__
+  commentId: M:GlitchedPolygons.ExtensionMethods.CollectionExtensions.IsNullOrEmpty``1(System.Collections.Generic.ICollection{``0})
+  name.vb: IsNullOrEmpty(Of T)(ICollection(Of T))
+  fullName: GlitchedPolygons.ExtensionMethods.CollectionExtensions.IsNullOrEmpty<T>(System.Collections.Generic.ICollection<T>)
+  fullName.vb: GlitchedPolygons.ExtensionMethods.CollectionExtensions.IsNullOrEmpty(Of T)(System.Collections.Generic.ICollection(Of T))
+  nameWithType: CollectionExtensions.IsNullOrEmpty<T>(ICollection<T>)
+  nameWithType.vb: CollectionExtensions.IsNullOrEmpty(Of T)(ICollection(Of T))
+- uid: GlitchedPolygons.ExtensionMethods.CollectionExtensions.NotNullNotEmpty*
+  name: NotNullNotEmpty
+  href: api/GlitchedPolygons.ExtensionMethods.CollectionExtensions.html#GlitchedPolygons_ExtensionMethods_CollectionExtensions_NotNullNotEmpty_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.CollectionExtensions.NotNullNotEmpty
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.CollectionExtensions.NotNullNotEmpty
+  nameWithType: CollectionExtensions.NotNullNotEmpty
+- uid: GlitchedPolygons.ExtensionMethods.CollectionExtensions.NotNullNotEmpty``1(System.Collections.Generic.ICollection{``0})
+  name: NotNullNotEmpty<T>(ICollection<T>)
+  href: api/GlitchedPolygons.ExtensionMethods.CollectionExtensions.html#GlitchedPolygons_ExtensionMethods_CollectionExtensions_NotNullNotEmpty__1_System_Collections_Generic_ICollection___0__
+  commentId: M:GlitchedPolygons.ExtensionMethods.CollectionExtensions.NotNullNotEmpty``1(System.Collections.Generic.ICollection{``0})
+  name.vb: NotNullNotEmpty(Of T)(ICollection(Of T))
+  fullName: GlitchedPolygons.ExtensionMethods.CollectionExtensions.NotNullNotEmpty<T>(System.Collections.Generic.ICollection<T>)
+  fullName.vb: GlitchedPolygons.ExtensionMethods.CollectionExtensions.NotNullNotEmpty(Of T)(System.Collections.Generic.ICollection(Of T))
+  nameWithType: CollectionExtensions.NotNullNotEmpty<T>(ICollection<T>)
+  nameWithType.vb: CollectionExtensions.NotNullNotEmpty(Of T)(ICollection(Of T))
+- uid: GlitchedPolygons.ExtensionMethods.CollectionExtensions.UnorderedEqual*
+  name: UnorderedEqual
+  href: api/GlitchedPolygons.ExtensionMethods.CollectionExtensions.html#GlitchedPolygons_ExtensionMethods_CollectionExtensions_UnorderedEqual_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.CollectionExtensions.UnorderedEqual
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.CollectionExtensions.UnorderedEqual
+  nameWithType: CollectionExtensions.UnorderedEqual
+- uid: GlitchedPolygons.ExtensionMethods.CollectionExtensions.UnorderedEqual``1(System.Collections.Generic.ICollection{``0},System.Collections.Generic.ICollection{``0})
+  name: UnorderedEqual<T>(ICollection<T>, ICollection<T>)
+  href: api/GlitchedPolygons.ExtensionMethods.CollectionExtensions.html#GlitchedPolygons_ExtensionMethods_CollectionExtensions_UnorderedEqual__1_System_Collections_Generic_ICollection___0__System_Collections_Generic_ICollection___0__
+  commentId: M:GlitchedPolygons.ExtensionMethods.CollectionExtensions.UnorderedEqual``1(System.Collections.Generic.ICollection{``0},System.Collections.Generic.ICollection{``0})
+  name.vb: UnorderedEqual(Of T)(ICollection(Of T), ICollection(Of T))
+  fullName: GlitchedPolygons.ExtensionMethods.CollectionExtensions.UnorderedEqual<T>(System.Collections.Generic.ICollection<T>, System.Collections.Generic.ICollection<T>)
+  fullName.vb: GlitchedPolygons.ExtensionMethods.CollectionExtensions.UnorderedEqual(Of T)(System.Collections.Generic.ICollection(Of T), System.Collections.Generic.ICollection(Of T))
+  nameWithType: CollectionExtensions.UnorderedEqual<T>(ICollection<T>, ICollection<T>)
+  nameWithType.vb: CollectionExtensions.UnorderedEqual(Of T)(ICollection(Of T), ICollection(Of T))
+- uid: GlitchedPolygons.ExtensionMethods.DateTimeExtensions
+  name: DateTimeExtensions
+  href: api/GlitchedPolygons.ExtensionMethods.DateTimeExtensions.html
+  commentId: T:GlitchedPolygons.ExtensionMethods.DateTimeExtensions
+  fullName: GlitchedPolygons.ExtensionMethods.DateTimeExtensions
+  nameWithType: DateTimeExtensions
+- uid: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.ToRfc3339String(System.DateTime)
+  name: ToRfc3339String(DateTime)
+  href: api/GlitchedPolygons.ExtensionMethods.DateTimeExtensions.html#GlitchedPolygons_ExtensionMethods_DateTimeExtensions_ToRfc3339String_System_DateTime_
+  commentId: M:GlitchedPolygons.ExtensionMethods.DateTimeExtensions.ToRfc3339String(System.DateTime)
+  fullName: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.ToRfc3339String(System.DateTime)
+  nameWithType: DateTimeExtensions.ToRfc3339String(DateTime)
+- uid: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.ToRfc3339String*
+  name: ToRfc3339String
+  href: api/GlitchedPolygons.ExtensionMethods.DateTimeExtensions.html#GlitchedPolygons_ExtensionMethods_DateTimeExtensions_ToRfc3339String_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.DateTimeExtensions.ToRfc3339String
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.ToRfc3339String
+  nameWithType: DateTimeExtensions.ToRfc3339String
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions
+  name: StringExtensions
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html
+  commentId: T:GlitchedPolygons.ExtensionMethods.StringExtensions
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions
+  nameWithType: StringExtensions
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.BCrypt(System.String,System.Int32)
+  name: BCrypt(String, Int32)
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_BCrypt_System_String_System_Int32_
+  commentId: M:GlitchedPolygons.ExtensionMethods.StringExtensions.BCrypt(System.String,System.Int32)
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.BCrypt(System.String, System.Int32)
+  nameWithType: StringExtensions.BCrypt(String, Int32)
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.BCrypt*
+  name: BCrypt
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_BCrypt_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.StringExtensions.BCrypt
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.BCrypt
+  nameWithType: StringExtensions.BCrypt
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.BCrypt_Enhanced(System.String,System.Int32)
+  name: BCrypt_Enhanced(String, Int32)
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_BCrypt_Enhanced_System_String_System_Int32_
+  commentId: M:GlitchedPolygons.ExtensionMethods.StringExtensions.BCrypt_Enhanced(System.String,System.Int32)
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.BCrypt_Enhanced(System.String, System.Int32)
+  nameWithType: StringExtensions.BCrypt_Enhanced(String, Int32)
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.BCrypt_Enhanced*
+  name: BCrypt_Enhanced
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_BCrypt_Enhanced_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.StringExtensions.BCrypt_Enhanced
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.BCrypt_Enhanced
+  nameWithType: StringExtensions.BCrypt_Enhanced
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.BCryptVerify(System.String,System.String)
+  name: BCryptVerify(String, String)
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_BCryptVerify_System_String_System_String_
+  commentId: M:GlitchedPolygons.ExtensionMethods.StringExtensions.BCryptVerify(System.String,System.String)
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.BCryptVerify(System.String, System.String)
+  nameWithType: StringExtensions.BCryptVerify(String, String)
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.BCryptVerify*
+  name: BCryptVerify
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_BCryptVerify_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.StringExtensions.BCryptVerify
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.BCryptVerify
+  nameWithType: StringExtensions.BCryptVerify
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.BCryptVerify_Enhanced(System.String,System.String)
+  name: BCryptVerify_Enhanced(String, String)
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_BCryptVerify_Enhanced_System_String_System_String_
+  commentId: M:GlitchedPolygons.ExtensionMethods.StringExtensions.BCryptVerify_Enhanced(System.String,System.String)
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.BCryptVerify_Enhanced(System.String, System.String)
+  nameWithType: StringExtensions.BCryptVerify_Enhanced(String, String)
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.BCryptVerify_Enhanced*
+  name: BCryptVerify_Enhanced
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_BCryptVerify_Enhanced_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.StringExtensions.BCryptVerify_Enhanced
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.BCryptVerify_Enhanced
+  nameWithType: StringExtensions.BCryptVerify_Enhanced
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.MD5(System.String,System.Boolean)
+  name: MD5(String, Boolean)
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_MD5_System_String_System_Boolean_
+  commentId: M:GlitchedPolygons.ExtensionMethods.StringExtensions.MD5(System.String,System.Boolean)
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.MD5(System.String, System.Boolean)
+  nameWithType: StringExtensions.MD5(String, Boolean)
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.MD5*
+  name: MD5
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_MD5_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.StringExtensions.MD5
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.MD5
+  nameWithType: StringExtensions.MD5
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.NotNullNotEmpty(System.String)
+  name: NotNullNotEmpty(String)
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_NotNullNotEmpty_System_String_
+  commentId: M:GlitchedPolygons.ExtensionMethods.StringExtensions.NotNullNotEmpty(System.String)
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.NotNullNotEmpty(System.String)
+  nameWithType: StringExtensions.NotNullNotEmpty(String)
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.NotNullNotEmpty*
+  name: NotNullNotEmpty
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_NotNullNotEmpty_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.StringExtensions.NotNullNotEmpty
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.NotNullNotEmpty
+  nameWithType: StringExtensions.NotNullNotEmpty
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.NullOrEmpty(System.String)
+  name: NullOrEmpty(String)
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_NullOrEmpty_System_String_
+  commentId: M:GlitchedPolygons.ExtensionMethods.StringExtensions.NullOrEmpty(System.String)
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.NullOrEmpty(System.String)
+  nameWithType: StringExtensions.NullOrEmpty(String)
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.NullOrEmpty*
+  name: NullOrEmpty
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_NullOrEmpty_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.StringExtensions.NullOrEmpty
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.NullOrEmpty
+  nameWithType: StringExtensions.NullOrEmpty
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.OpenUrlInBrowser(System.String)
+  name: OpenUrlInBrowser(String)
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_OpenUrlInBrowser_System_String_
+  commentId: M:GlitchedPolygons.ExtensionMethods.StringExtensions.OpenUrlInBrowser(System.String)
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.OpenUrlInBrowser(System.String)
+  nameWithType: StringExtensions.OpenUrlInBrowser(String)
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.OpenUrlInBrowser*
+  name: OpenUrlInBrowser
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_OpenUrlInBrowser_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.StringExtensions.OpenUrlInBrowser
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.OpenUrlInBrowser
+  nameWithType: StringExtensions.OpenUrlInBrowser
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.SHA1(System.String,System.Boolean)
+  name: SHA1(String, Boolean)
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_SHA1_System_String_System_Boolean_
+  commentId: M:GlitchedPolygons.ExtensionMethods.StringExtensions.SHA1(System.String,System.Boolean)
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.SHA1(System.String, System.Boolean)
+  nameWithType: StringExtensions.SHA1(String, Boolean)
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.SHA1*
+  name: SHA1
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_SHA1_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.StringExtensions.SHA1
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.SHA1
+  nameWithType: StringExtensions.SHA1
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.SHA256(System.String,System.Boolean)
+  name: SHA256(String, Boolean)
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_SHA256_System_String_System_Boolean_
+  commentId: M:GlitchedPolygons.ExtensionMethods.StringExtensions.SHA256(System.String,System.Boolean)
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.SHA256(System.String, System.Boolean)
+  nameWithType: StringExtensions.SHA256(String, Boolean)
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.SHA256*
+  name: SHA256
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_SHA256_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.StringExtensions.SHA256
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.SHA256
+  nameWithType: StringExtensions.SHA256
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.SHA384(System.String,System.Boolean)
+  name: SHA384(String, Boolean)
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_SHA384_System_String_System_Boolean_
+  commentId: M:GlitchedPolygons.ExtensionMethods.StringExtensions.SHA384(System.String,System.Boolean)
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.SHA384(System.String, System.Boolean)
+  nameWithType: StringExtensions.SHA384(String, Boolean)
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.SHA384*
+  name: SHA384
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_SHA384_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.StringExtensions.SHA384
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.SHA384
+  nameWithType: StringExtensions.SHA384
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.SHA512(System.String,System.Boolean)
+  name: SHA512(String, Boolean)
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_SHA512_System_String_System_Boolean_
+  commentId: M:GlitchedPolygons.ExtensionMethods.StringExtensions.SHA512(System.String,System.Boolean)
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.SHA512(System.String, System.Boolean)
+  nameWithType: StringExtensions.SHA512(String, Boolean)
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.SHA512*
+  name: SHA512
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_SHA512_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.StringExtensions.SHA512
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.SHA512
+  nameWithType: StringExtensions.SHA512
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.UTF8GetBytes(System.String)
+  name: UTF8GetBytes(String)
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_UTF8GetBytes_System_String_
+  commentId: M:GlitchedPolygons.ExtensionMethods.StringExtensions.UTF8GetBytes(System.String)
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.UTF8GetBytes(System.String)
+  nameWithType: StringExtensions.UTF8GetBytes(String)
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.UTF8GetBytes*
+  name: UTF8GetBytes
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_UTF8GetBytes_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.StringExtensions.UTF8GetBytes
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.UTF8GetBytes
+  nameWithType: StringExtensions.UTF8GetBytes
