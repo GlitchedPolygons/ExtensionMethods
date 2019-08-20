@@ -51,22 +51,6 @@ references:
   commentId: T:GlitchedPolygons.ExtensionMethods.CollectionExtensions
   fullName: GlitchedPolygons.ExtensionMethods.CollectionExtensions
   nameWithType: CollectionExtensions
-- uid: GlitchedPolygons.ExtensionMethods.CollectionExtensions.IsNullOrEmpty*
-  name: IsNullOrEmpty
-  href: api/GlitchedPolygons.ExtensionMethods.CollectionExtensions.html#GlitchedPolygons_ExtensionMethods_CollectionExtensions_IsNullOrEmpty_
-  commentId: Overload:GlitchedPolygons.ExtensionMethods.CollectionExtensions.IsNullOrEmpty
-  isSpec: "True"
-  fullName: GlitchedPolygons.ExtensionMethods.CollectionExtensions.IsNullOrEmpty
-  nameWithType: CollectionExtensions.IsNullOrEmpty
-- uid: GlitchedPolygons.ExtensionMethods.CollectionExtensions.IsNullOrEmpty``1(System.Collections.Generic.ICollection{``0})
-  name: IsNullOrEmpty<T>(ICollection<T>)
-  href: api/GlitchedPolygons.ExtensionMethods.CollectionExtensions.html#GlitchedPolygons_ExtensionMethods_CollectionExtensions_IsNullOrEmpty__1_System_Collections_Generic_ICollection___0__
-  commentId: M:GlitchedPolygons.ExtensionMethods.CollectionExtensions.IsNullOrEmpty``1(System.Collections.Generic.ICollection{``0})
-  name.vb: IsNullOrEmpty(Of T)(ICollection(Of T))
-  fullName: GlitchedPolygons.ExtensionMethods.CollectionExtensions.IsNullOrEmpty<T>(System.Collections.Generic.ICollection<T>)
-  fullName.vb: GlitchedPolygons.ExtensionMethods.CollectionExtensions.IsNullOrEmpty(Of T)(System.Collections.Generic.ICollection(Of T))
-  nameWithType: CollectionExtensions.IsNullOrEmpty<T>(ICollection<T>)
-  nameWithType.vb: CollectionExtensions.IsNullOrEmpty(Of T)(ICollection(Of T))
 - uid: GlitchedPolygons.ExtensionMethods.CollectionExtensions.NotNullNotEmpty*
   name: NotNullNotEmpty
   href: api/GlitchedPolygons.ExtensionMethods.CollectionExtensions.html#GlitchedPolygons_ExtensionMethods_CollectionExtensions_NotNullNotEmpty_
@@ -83,6 +67,22 @@ references:
   fullName.vb: GlitchedPolygons.ExtensionMethods.CollectionExtensions.NotNullNotEmpty(Of T)(System.Collections.Generic.ICollection(Of T))
   nameWithType: CollectionExtensions.NotNullNotEmpty<T>(ICollection<T>)
   nameWithType.vb: CollectionExtensions.NotNullNotEmpty(Of T)(ICollection(Of T))
+- uid: GlitchedPolygons.ExtensionMethods.CollectionExtensions.NullOrEmpty*
+  name: NullOrEmpty
+  href: api/GlitchedPolygons.ExtensionMethods.CollectionExtensions.html#GlitchedPolygons_ExtensionMethods_CollectionExtensions_NullOrEmpty_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.CollectionExtensions.NullOrEmpty
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.CollectionExtensions.NullOrEmpty
+  nameWithType: CollectionExtensions.NullOrEmpty
+- uid: GlitchedPolygons.ExtensionMethods.CollectionExtensions.NullOrEmpty``1(System.Collections.Generic.ICollection{``0})
+  name: NullOrEmpty<T>(ICollection<T>)
+  href: api/GlitchedPolygons.ExtensionMethods.CollectionExtensions.html#GlitchedPolygons_ExtensionMethods_CollectionExtensions_NullOrEmpty__1_System_Collections_Generic_ICollection___0__
+  commentId: M:GlitchedPolygons.ExtensionMethods.CollectionExtensions.NullOrEmpty``1(System.Collections.Generic.ICollection{``0})
+  name.vb: NullOrEmpty(Of T)(ICollection(Of T))
+  fullName: GlitchedPolygons.ExtensionMethods.CollectionExtensions.NullOrEmpty<T>(System.Collections.Generic.ICollection<T>)
+  fullName.vb: GlitchedPolygons.ExtensionMethods.CollectionExtensions.NullOrEmpty(Of T)(System.Collections.Generic.ICollection(Of T))
+  nameWithType: CollectionExtensions.NullOrEmpty<T>(ICollection<T>)
+  nameWithType.vb: CollectionExtensions.NullOrEmpty(Of T)(ICollection(Of T))
 - uid: GlitchedPolygons.ExtensionMethods.CollectionExtensions.UnorderedEqual*
   name: UnorderedEqual
   href: api/GlitchedPolygons.ExtensionMethods.CollectionExtensions.html#GlitchedPolygons_ExtensionMethods_CollectionExtensions_UnorderedEqual_
