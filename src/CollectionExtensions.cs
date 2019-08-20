@@ -15,7 +15,7 @@ namespace GlitchedPolygons.ExtensionMethods
         /// </summary>
         /// <param name="collection">The list to check.</param>
         /// <returns><c>true</c> if the passed <paramref name="collection"/> is either <c>null</c> or empty; otherwise, <c>false</c>.</returns>
-        public static bool IsNullOrEmpty<T>(this ICollection<T> collection)
+        public static bool NullOrEmpty<T>(this ICollection<T> collection)
         {
             return collection is null || collection.Count == 0;
         }
