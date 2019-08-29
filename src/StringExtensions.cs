@@ -3,9 +3,10 @@
 
 using System;
 using System.Text;
-using System.Diagnostics;
-using System.Security.Cryptography;
+using System.Text.RegularExpressions;
 using System.Runtime.InteropServices;
+using System.Security.Cryptography;
+using System.Diagnostics;
 
 namespace GlitchedPolygons.ExtensionMethods
 {
@@ -14,6 +15,9 @@ namespace GlitchedPolygons.ExtensionMethods
     /// </summary>
     public static class StringExtensions
     {
+        private const string EMAIL_REGEX_PATTERN =
+            @"^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?$";
+
         /// <summary>
         /// Opens the <c>string</c> URL in the browser.
         /// </summary>
@@ -36,6 +40,42 @@ namespace GlitchedPolygons.ExtensionMethods
             {
                 throw new PlatformNotSupportedException();
             }
+        }
+
+        /// <summary>
+        /// Checks if a given <c>string</c> is a valid email address or not.
+        /// </summary>
+        /// <param name="str">The email address to validate.</param>
+        /// <returns>Whether the given email address <c>string</c> is valid or not.</returns>
+        public static bool IsValidEmail(this string str)
+        {
+            return str.NotNullNotEmpty() && Regex.IsMatch(str, EMAIL_REGEX_PATTERN, RegexOptions.IgnoreCase);
+        }
+
+        /// <summary>
+        /// Checks whether a given <c>string</c> only contains ASCII characters or not.<para> </para>
+        /// <c>null</c> or empty <c>string</c>s return <c>true</c>!.
+        /// </summary>
+        /// <param name="str">The string to check.</param>
+        /// <returns>Whether the checked <c>string</c> only contained ASCII chars or not. If the <c>string</c> was empty or <c>null</c>, <c>true</c> is returned.</returns>
+        public static bool IsASCII(this string str)
+        {
+            if (str.NullOrEmpty())
+            {
+                return true;
+            }
+
+            bool ascii = true;
+
+            foreach (char c in str)
+            {
+                if (c >= 128)
+                {
+                    ascii = false;
+                }
+            }
+
+            return ascii;
         }
 
         /// <summary>
