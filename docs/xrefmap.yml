@@ -176,6 +176,32 @@ references:
   isSpec: "True"
   fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.BCryptVerify_Enhanced
   nameWithType: StringExtensions.BCryptVerify_Enhanced
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.IsASCII(System.String)
+  name: IsASCII(String)
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_IsASCII_System_String_
+  commentId: M:GlitchedPolygons.ExtensionMethods.StringExtensions.IsASCII(System.String)
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.IsASCII(System.String)
+  nameWithType: StringExtensions.IsASCII(String)
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.IsASCII*
+  name: IsASCII
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_IsASCII_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.StringExtensions.IsASCII
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.IsASCII
+  nameWithType: StringExtensions.IsASCII
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.IsValidEmail(System.String)
+  name: IsValidEmail(String)
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_IsValidEmail_System_String_
+  commentId: M:GlitchedPolygons.ExtensionMethods.StringExtensions.IsValidEmail(System.String)
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.IsValidEmail(System.String)
+  nameWithType: StringExtensions.IsValidEmail(String)
+- uid: GlitchedPolygons.ExtensionMethods.StringExtensions.IsValidEmail*
+  name: IsValidEmail
+  href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_IsValidEmail_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.StringExtensions.IsValidEmail
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.StringExtensions.IsValidEmail
+  nameWithType: StringExtensions.IsValidEmail
 - uid: GlitchedPolygons.ExtensionMethods.StringExtensions.MD5(System.String,System.Boolean)
   name: MD5(String, Boolean)
   href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html#GlitchedPolygons_ExtensionMethods_StringExtensions_MD5_System_String_System_Boolean_

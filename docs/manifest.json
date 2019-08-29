@@ -24,7 +24,7 @@
           "hash": "syuMdH660EzPqbA3UlObcg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -45,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.StringExtensions.html",
-          "hash": "JyUOA+uYtP+BOyGMe4EA0A=="
+          "hash": "fJRXWaFfA7vZl7shOIS7pw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
