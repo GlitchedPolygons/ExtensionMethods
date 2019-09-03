@@ -1,7 +1,9 @@
 ﻿// Copyright (c) 2019, Raphael Beck. All rights reserved.
 // Use of this source code is governed by the BSD 3-Clause license that can be found in the repository root directory's LICENSE file.
 
+using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace GlitchedPolygons.ExtensionMethods
 {
@@ -19,7 +21,7 @@ namespace GlitchedPolygons.ExtensionMethods
         {
             return collection is null || collection.Count == 0;
         }
-        
+
         /// <summary>
         /// Returns true if the <paramref name="collection"/>
         /// is not <c>null</c> and has at least 1 element in it.
@@ -30,7 +32,7 @@ namespace GlitchedPolygons.ExtensionMethods
         {
             return collection != null && collection.Count > 0;
         }
-        
+
         /// <summary>
         /// Checks whether the two <see cref="ICollection{T}"/> are equal (have the same elements).<para> </para>
         /// The order of the elements is not important; e.g. {1,2,3} and {2,3,1} would return <c>true</c>.
@@ -72,6 +74,7 @@ namespace GlitchedPolygons.ExtensionMethods
                     {
                         return false;
                     }
+
                     dictionary[item] = i - 1;
                 }
                 else
