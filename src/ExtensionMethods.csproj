@@ -13,7 +13,7 @@
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
         <PackageIconUrl>https://media.githubusercontent.com/media/GlitchedPolygons/NugetIcons/661dca007a8e49de5e31e5be268b2550dfa2aea7/extension-methods.png</PackageIconUrl>
-        <PackageVersion>1.0.4</PackageVersion>
+        <PackageVersion>1.0.5</PackageVersion>
         <TargetFramework>netstandard2.0</TargetFramework>
     </PropertyGroup>
 

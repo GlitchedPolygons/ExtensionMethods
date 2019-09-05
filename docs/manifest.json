@@ -12,7 +12,7 @@
           "hash": "UbyeZKvU8GfHXZA1QEZ9wQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.CollectionExtensions.html",
-          "hash": "syuMdH660EzPqbA3UlObcg=="
+          "hash": "r83YlhFbn8DGa5ANcfOcDw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,10 +33,25 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.DateTimeExtensions.html",
-          "hash": "P6GVeGXkGQfLRZqHXmVa3A=="
+          "hash": "IYcHLIJYlEfhP/KWv5PLxA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "ReferencedXrefPropertyNotString"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.html",
+          "hash": "TcsOPWNCUXzDXWlkSQSK+w=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,7 +72,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.html",
-          "hash": "7KWXhUWvLuY3fuueHSMMig=="
+          "hash": "DimCs1NYFz42stiWRpOgzg=="
         }
       },
       "is_incremental": false,
@@ -72,7 +87,7 @@
           "hash": "vTWBGUNAbtKDbWDUxtJB1A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -81,7 +96,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "OUYVjyewhk6sjGNIbwGuBw=="
+          "hash": "9pk3S7QC24Vw7/CJYzinqg=="
         }
       },
       "is_incremental": false,
@@ -148,12 +163,11 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
+          "total_file_count": 6,
+          "skipped_file_count": 2
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
@@ -161,11 +175,12 @@
           "total_file_count": 3,
           "skipped_file_count": 3
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 5,
-          "skipped_file_count": 4
+          "total_file_count": 0,
+          "skipped_file_count": 0
         }
       }
     },

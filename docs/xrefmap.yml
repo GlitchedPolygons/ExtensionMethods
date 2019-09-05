@@ -105,6 +105,45 @@ references:
   commentId: T:GlitchedPolygons.ExtensionMethods.DateTimeExtensions
   fullName: GlitchedPolygons.ExtensionMethods.DateTimeExtensions
   nameWithType: DateTimeExtensions
+- uid: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.AlmostEquals(System.DateTime,System.DateTime,System.Double)
+  name: AlmostEquals(DateTime, DateTime, Double)
+  href: api/GlitchedPolygons.ExtensionMethods.DateTimeExtensions.html#GlitchedPolygons_ExtensionMethods_DateTimeExtensions_AlmostEquals_System_DateTime_System_DateTime_System_Double_
+  commentId: M:GlitchedPolygons.ExtensionMethods.DateTimeExtensions.AlmostEquals(System.DateTime,System.DateTime,System.Double)
+  fullName: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.AlmostEquals(System.DateTime, System.DateTime, System.Double)
+  nameWithType: DateTimeExtensions.AlmostEquals(DateTime, DateTime, Double)
+- uid: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.AlmostEquals*
+  name: AlmostEquals
+  href: api/GlitchedPolygons.ExtensionMethods.DateTimeExtensions.html#GlitchedPolygons_ExtensionMethods_DateTimeExtensions_AlmostEquals_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.DateTimeExtensions.AlmostEquals
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.AlmostEquals
+  nameWithType: DateTimeExtensions.AlmostEquals
+- uid: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.FromUnixTimeMilliseconds(System.Int64)
+  name: FromUnixTimeMilliseconds(Int64)
+  href: api/GlitchedPolygons.ExtensionMethods.DateTimeExtensions.html#GlitchedPolygons_ExtensionMethods_DateTimeExtensions_FromUnixTimeMilliseconds_System_Int64_
+  commentId: M:GlitchedPolygons.ExtensionMethods.DateTimeExtensions.FromUnixTimeMilliseconds(System.Int64)
+  fullName: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.FromUnixTimeMilliseconds(System.Int64)
+  nameWithType: DateTimeExtensions.FromUnixTimeMilliseconds(Int64)
+- uid: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.FromUnixTimeMilliseconds*
+  name: FromUnixTimeMilliseconds
+  href: api/GlitchedPolygons.ExtensionMethods.DateTimeExtensions.html#GlitchedPolygons_ExtensionMethods_DateTimeExtensions_FromUnixTimeMilliseconds_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.DateTimeExtensions.FromUnixTimeMilliseconds
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.FromUnixTimeMilliseconds
+  nameWithType: DateTimeExtensions.FromUnixTimeMilliseconds
+- uid: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.FromUnixTimeSeconds(System.Int64)
+  name: FromUnixTimeSeconds(Int64)
+  href: api/GlitchedPolygons.ExtensionMethods.DateTimeExtensions.html#GlitchedPolygons_ExtensionMethods_DateTimeExtensions_FromUnixTimeSeconds_System_Int64_
+  commentId: M:GlitchedPolygons.ExtensionMethods.DateTimeExtensions.FromUnixTimeSeconds(System.Int64)
+  fullName: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.FromUnixTimeSeconds(System.Int64)
+  nameWithType: DateTimeExtensions.FromUnixTimeSeconds(Int64)
+- uid: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.FromUnixTimeSeconds*
+  name: FromUnixTimeSeconds
+  href: api/GlitchedPolygons.ExtensionMethods.DateTimeExtensions.html#GlitchedPolygons_ExtensionMethods_DateTimeExtensions_FromUnixTimeSeconds_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.DateTimeExtensions.FromUnixTimeSeconds
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.FromUnixTimeSeconds
+  nameWithType: DateTimeExtensions.FromUnixTimeSeconds
 - uid: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.ToRfc3339String(System.DateTime)
   name: ToRfc3339String(DateTime)
   href: api/GlitchedPolygons.ExtensionMethods.DateTimeExtensions.html#GlitchedPolygons_ExtensionMethods_DateTimeExtensions_ToRfc3339String_System_DateTime_
@@ -118,6 +157,92 @@ references:
   isSpec: "True"
   fullName: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.ToRfc3339String
   nameWithType: DateTimeExtensions.ToRfc3339String
+- uid: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.ToUnixTimeMilliseconds(System.DateTime)
+  name: ToUnixTimeMilliseconds(DateTime)
+  href: api/GlitchedPolygons.ExtensionMethods.DateTimeExtensions.html#GlitchedPolygons_ExtensionMethods_DateTimeExtensions_ToUnixTimeMilliseconds_System_DateTime_
+  commentId: M:GlitchedPolygons.ExtensionMethods.DateTimeExtensions.ToUnixTimeMilliseconds(System.DateTime)
+  fullName: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.ToUnixTimeMilliseconds(System.DateTime)
+  nameWithType: DateTimeExtensions.ToUnixTimeMilliseconds(DateTime)
+- uid: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.ToUnixTimeMilliseconds*
+  name: ToUnixTimeMilliseconds
+  href: api/GlitchedPolygons.ExtensionMethods.DateTimeExtensions.html#GlitchedPolygons_ExtensionMethods_DateTimeExtensions_ToUnixTimeMilliseconds_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.DateTimeExtensions.ToUnixTimeMilliseconds
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.ToUnixTimeMilliseconds
+  nameWithType: DateTimeExtensions.ToUnixTimeMilliseconds
+- uid: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.ToUnixTimeSeconds(System.DateTime)
+  name: ToUnixTimeSeconds(DateTime)
+  href: api/GlitchedPolygons.ExtensionMethods.DateTimeExtensions.html#GlitchedPolygons_ExtensionMethods_DateTimeExtensions_ToUnixTimeSeconds_System_DateTime_
+  commentId: M:GlitchedPolygons.ExtensionMethods.DateTimeExtensions.ToUnixTimeSeconds(System.DateTime)
+  fullName: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.ToUnixTimeSeconds(System.DateTime)
+  nameWithType: DateTimeExtensions.ToUnixTimeSeconds(DateTime)
+- uid: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.ToUnixTimeSeconds*
+  name: ToUnixTimeSeconds
+  href: api/GlitchedPolygons.ExtensionMethods.DateTimeExtensions.html#GlitchedPolygons_ExtensionMethods_DateTimeExtensions_ToUnixTimeSeconds_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.DateTimeExtensions.ToUnixTimeSeconds
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.ToUnixTimeSeconds
+  nameWithType: DateTimeExtensions.ToUnixTimeSeconds
+- uid: GlitchedPolygons.ExtensionMethods.IEnumerableExtensions
+  name: IEnumerableExtensions
+  href: api/GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.html
+  commentId: T:GlitchedPolygons.ExtensionMethods.IEnumerableExtensions
+  fullName: GlitchedPolygons.ExtensionMethods.IEnumerableExtensions
+  nameWithType: IEnumerableExtensions
+- uid: GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.Compare*
+  name: Compare
+  href: api/GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.html#GlitchedPolygons_ExtensionMethods_IEnumerableExtensions_Compare_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.Compare
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.Compare
+  nameWithType: IEnumerableExtensions.Compare
+- uid: GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.Compare``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
+  name: Compare<T>(IEnumerable<T>, IEnumerable<T>)
+  href: api/GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.html#GlitchedPolygons_ExtensionMethods_IEnumerableExtensions_Compare__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__
+  commentId: M:GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.Compare``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
+  name.vb: Compare(Of T)(IEnumerable(Of T), IEnumerable(Of T))
+  fullName: GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.Compare<T>(System.Collections.Generic.IEnumerable<T>, System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.Compare(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: IEnumerableExtensions.Compare<T>(IEnumerable<T>, IEnumerable<T>)
+  nameWithType.vb: IEnumerableExtensions.Compare(Of T)(IEnumerable(Of T), IEnumerable(Of T))
+- uid: GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.StringBuilderInitialCap
+  name: StringBuilderInitialCap
+  href: api/GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.html#GlitchedPolygons_ExtensionMethods_IEnumerableExtensions_StringBuilderInitialCap
+  commentId: F:GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.StringBuilderInitialCap
+  fullName: GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.StringBuilderInitialCap
+  nameWithType: IEnumerableExtensions.StringBuilderInitialCap
+- uid: GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.ToCommaSeparatedString(System.Collections.Generic.IEnumerable{System.String})
+  name: ToCommaSeparatedString(IEnumerable<String>)
+  href: api/GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.html#GlitchedPolygons_ExtensionMethods_IEnumerableExtensions_ToCommaSeparatedString_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.ToCommaSeparatedString(System.Collections.Generic.IEnumerable{System.String})
+  name.vb: ToCommaSeparatedString(IEnumerable(Of String))
+  fullName: GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.ToCommaSeparatedString(System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.ToCommaSeparatedString(System.Collections.Generic.IEnumerable(Of System.String))
+  nameWithType: IEnumerableExtensions.ToCommaSeparatedString(IEnumerable<String>)
+  nameWithType.vb: IEnumerableExtensions.ToCommaSeparatedString(IEnumerable(Of String))
+- uid: GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.ToCommaSeparatedString*
+  name: ToCommaSeparatedString
+  href: api/GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.html#GlitchedPolygons_ExtensionMethods_IEnumerableExtensions_ToCommaSeparatedString_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.ToCommaSeparatedString
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.ToCommaSeparatedString
+  nameWithType: IEnumerableExtensions.ToCommaSeparatedString
+- uid: GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.ToCustomCharSeparatedString(System.Collections.Generic.IEnumerable{System.String},System.Char)
+  name: ToCustomCharSeparatedString(IEnumerable<String>, Char)
+  href: api/GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.html#GlitchedPolygons_ExtensionMethods_IEnumerableExtensions_ToCustomCharSeparatedString_System_Collections_Generic_IEnumerable_System_String__System_Char_
+  commentId: M:GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.ToCustomCharSeparatedString(System.Collections.Generic.IEnumerable{System.String},System.Char)
+  name.vb: ToCustomCharSeparatedString(IEnumerable(Of String), Char)
+  fullName: GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.ToCustomCharSeparatedString(System.Collections.Generic.IEnumerable<System.String>, System.Char)
+  fullName.vb: GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.ToCustomCharSeparatedString(System.Collections.Generic.IEnumerable(Of System.String), System.Char)
+  nameWithType: IEnumerableExtensions.ToCustomCharSeparatedString(IEnumerable<String>, Char)
+  nameWithType.vb: IEnumerableExtensions.ToCustomCharSeparatedString(IEnumerable(Of String), Char)
+- uid: GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.ToCustomCharSeparatedString*
+  name: ToCustomCharSeparatedString
+  href: api/GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.html#GlitchedPolygons_ExtensionMethods_IEnumerableExtensions_ToCustomCharSeparatedString_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.ToCustomCharSeparatedString
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.ToCustomCharSeparatedString
+  nameWithType: IEnumerableExtensions.ToCustomCharSeparatedString
 - uid: GlitchedPolygons.ExtensionMethods.StringExtensions
   name: StringExtensions
   href: api/GlitchedPolygons.ExtensionMethods.StringExtensions.html
