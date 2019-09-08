@@ -40,6 +40,18 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.DirectoryInfoExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.DirectoryInfoExtensions.html",
+          "hash": "okCf3FEAok6CIlTbnTRwgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "log_codes": [
         "ReferencedXrefPropertyNotString"
       ],
@@ -72,7 +84,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GlitchedPolygons.ExtensionMethods.html",
-          "hash": "DimCs1NYFz42stiWRpOgzg=="
+          "hash": "vbxd+Bgptl/GAIKNKCxOZQ=="
         }
       },
       "is_incremental": false,
@@ -96,7 +108,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "9pk3S7QC24Vw7/CJYzinqg=="
+          "hash": "IbGXg3IKzNUWFYnR0q7yCg=="
         }
       },
       "is_incremental": false,
@@ -163,11 +175,12 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 6,
-          "skipped_file_count": 2
+          "total_file_count": 0,
+          "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
@@ -175,12 +188,11 @@
           "total_file_count": 3,
           "skipped_file_count": 3
         },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
+          "total_file_count": 7,
+          "skipped_file_count": 5
         }
       }
     },

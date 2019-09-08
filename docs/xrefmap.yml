@@ -183,6 +183,25 @@ references:
   isSpec: "True"
   fullName: GlitchedPolygons.ExtensionMethods.DateTimeExtensions.ToUnixTimeSeconds
   nameWithType: DateTimeExtensions.ToUnixTimeSeconds
+- uid: GlitchedPolygons.ExtensionMethods.DirectoryInfoExtensions
+  name: DirectoryInfoExtensions
+  href: api/GlitchedPolygons.ExtensionMethods.DirectoryInfoExtensions.html
+  commentId: T:GlitchedPolygons.ExtensionMethods.DirectoryInfoExtensions
+  fullName: GlitchedPolygons.ExtensionMethods.DirectoryInfoExtensions
+  nameWithType: DirectoryInfoExtensions
+- uid: GlitchedPolygons.ExtensionMethods.DirectoryInfoExtensions.DeleteRecursively(System.IO.DirectoryInfo)
+  name: DeleteRecursively(DirectoryInfo)
+  href: api/GlitchedPolygons.ExtensionMethods.DirectoryInfoExtensions.html#GlitchedPolygons_ExtensionMethods_DirectoryInfoExtensions_DeleteRecursively_System_IO_DirectoryInfo_
+  commentId: M:GlitchedPolygons.ExtensionMethods.DirectoryInfoExtensions.DeleteRecursively(System.IO.DirectoryInfo)
+  fullName: GlitchedPolygons.ExtensionMethods.DirectoryInfoExtensions.DeleteRecursively(System.IO.DirectoryInfo)
+  nameWithType: DirectoryInfoExtensions.DeleteRecursively(DirectoryInfo)
+- uid: GlitchedPolygons.ExtensionMethods.DirectoryInfoExtensions.DeleteRecursively*
+  name: DeleteRecursively
+  href: api/GlitchedPolygons.ExtensionMethods.DirectoryInfoExtensions.html#GlitchedPolygons_ExtensionMethods_DirectoryInfoExtensions_DeleteRecursively_
+  commentId: Overload:GlitchedPolygons.ExtensionMethods.DirectoryInfoExtensions.DeleteRecursively
+  isSpec: "True"
+  fullName: GlitchedPolygons.ExtensionMethods.DirectoryInfoExtensions.DeleteRecursively
+  nameWithType: DirectoryInfoExtensions.DeleteRecursively
 - uid: GlitchedPolygons.ExtensionMethods.IEnumerableExtensions
   name: IEnumerableExtensions
   href: api/GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.html
