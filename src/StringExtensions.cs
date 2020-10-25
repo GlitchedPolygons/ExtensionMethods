@@ -109,52 +109,6 @@ namespace GlitchedPolygons.ExtensionMethods
         }
 
         /// <summary>
-        /// Hashes the <c>string</c> using the BCrypt algorithm.<para> </para>
-        /// Only use <see cref="BCryptVerify"/> for verifying/comparing!
-        /// </summary>
-        /// <param name="text">The <c>string</c> to BCrypt.</param>
-        /// <param name="logRounds">The log2 of the number of rounds of hashing to apply. The work factor increases as (2 ** logRounds). The higher, the safer, the slower.</param>
-        /// <returns>The hashed <c>string</c>.</returns>
-        public static string BCrypt(this string text, int logRounds = 12)
-        {
-            return global::BCrypt.Net.BCrypt.HashPassword(text, logRounds);
-        }
-
-        /// <summary>
-        /// Hashes the <c>string</c> using SHA384 + BCrypt algorithm.<para> </para>
-        /// Only use <see cref="BCryptVerify_Enhanced"/> for verifying/comparing!
-        /// </summary>
-        /// <param name="text">The <c>string</c> to BCrypt.</param>
-        /// <param name="logRounds">The log2 of the number of rounds of hashing to apply. The work factor increases as (2 ** logRounds). The higher, the safer, the slower.</param>
-        /// <returns>The hashed <c>string</c>.</returns>
-        public static string BCrypt_Enhanced(this string text, int logRounds = 12)
-        {
-            return global::BCrypt.Net.BCrypt.EnhancedHashPassword(text, logRounds);
-        }
-
-        /// <summary>
-        /// Verifies a BCrypted <c>string</c> (obtained using <see cref="BCrypt"/>) against its plaintext counterpart.
-        /// </summary>
-        /// <param name="bcryptedString">The BCrypt hash of the <c>string</c> to verify.</param>
-        /// <param name="plaintextToCompare">The plaintext <c>string</c> that was hashed.</param>
-        /// <returns>Whether the plaintext string + hash could be verified.</returns>
-        public static bool BCryptVerify(this string bcryptedString, string plaintextToCompare)
-        {
-            return global::BCrypt.Net.BCrypt.Verify(plaintextToCompare, bcryptedString);
-        }
-
-        /// <summary>
-        /// Verifies a BCrypted <c>string</c> that was obtained using <see cref="BCrypt_Enhanced"/>.
-        /// </summary>
-        /// <param name="bcryptedString">The BCrypt hash of the <c>string</c> to verify.</param>
-        /// <param name="plaintextToCompare">The plaintext <c>string</c> that was hashed.</param>
-        /// <returns>Whether the plaintext string + hash could be verified.</returns>
-        public static bool BCryptVerify_Enhanced(this string bcryptedString, string plaintextToCompare)
-        {
-            return global::BCrypt.Net.BCrypt.EnhancedVerify(plaintextToCompare, bcryptedString);
-        }
-
-        /// <summary>
         /// Computes the MD5 hash of a <c>string</c>.
         /// </summary>
         /// <param name="text">The text to hash.</param>
@@ -228,12 +182,12 @@ namespace GlitchedPolygons.ExtensionMethods
         {
             var stringBuilder = new StringBuilder(128);
             byte[] hash = algo.ComputeHash(str.UTF8GetBytes());
-
-            for (int i = 0; i < hash.Length; i++)
+            string f = toLowercase ? "x2" : "X2";
+            for (long i = 0; i < hash.LongLength; ++i)
             {
-                stringBuilder.Append(hash[i].ToString(toLowercase ? "x2" : "X2"));
+                stringBuilder.Append(hash[i].ToString(f));
             }
-
+            
             return stringBuilder.ToString();
         }
     }

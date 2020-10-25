@@ -12,8 +12,10 @@
         <PackageTags>c# extension methods utility classes useful snippets code snippet</PackageTags>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
-        <PackageVersion>1.0.7</PackageVersion>
+        <PackageVersion>1.0.8</PackageVersion>
         <TargetFramework>netstandard2.0</TargetFramework>
+        <AssemblyVersion>1.0.8</AssemblyVersion>
+        <FileVersion>1.0.8</FileVersion>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -23,10 +25,6 @@
     <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
       <DocumentationFile>bin\Release\netstandard2.0\$(AssemblyName).xml</DocumentationFile>
     </PropertyGroup>
-
-    <ItemGroup>
-      <PackageReference Include="BCrypt.Net-Next" Version="3.2.1" />
-    </ItemGroup>
 
 
 <PropertyGroup>
