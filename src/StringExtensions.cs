@@ -190,5 +190,20 @@ namespace GlitchedPolygons.ExtensionMethods
             
             return stringBuilder.ToString();
         }
+        
+        /// <summary>
+        /// Converts a base64-encoded <see cref="String"/> to bytes, appending '=' padding characters to it if needed.
+        /// </summary>
+        /// <param name="b64">The string to convert.</param>
+        /// <returns><c>Convert.FromBase64String(b64)</c></returns>
+        public static byte[] ToBytesFromBase64(this string b64)
+        {
+            while (b64.Length % 4 != 0)
+            {
+                b64 += '=';
+            }
+
+            return Convert.FromBase64String(b64);
+        }
     }
 }
