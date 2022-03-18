@@ -12,10 +12,11 @@
         <PackageTags>c# extension methods utility classes useful snippets code snippet</PackageTags>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
-        <PackageVersion>1.0.8</PackageVersion>
-        <TargetFramework>netstandard2.0</TargetFramework>
-        <AssemblyVersion>1.0.8</AssemblyVersion>
-        <FileVersion>1.0.8</FileVersion>
+        <PackageVersion>1.0.9</PackageVersion>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <AssemblyVersion>1.0.9</AssemblyVersion>
+        <FileVersion>1.0.9</FileVersion>
+        <LangVersion>8</LangVersion>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">

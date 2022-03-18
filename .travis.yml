@@ -10,7 +10,7 @@ before_install:
 install:
   - dotnet restore
 mono: none
-dotnet: 2.2
+dotnet: 6.0
 script:
   - dotnet restore
   - cd tests/

@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <TargetFramework>net6.0</TargetFramework>
         <IsPackable>false</IsPackable>
         <Authors />
         <AssemblyName>GlitchedPolygons.ExtensionMethods.UnitTests</AssemblyName>
@@ -9,6 +9,7 @@
         <PackageId>GlitchedPolygons.ExtensionMethods.UnitTests</PackageId>
         <Company>Glitched Polygons</Company>
         <Product>GlitchedPolygons.ExtensionMethods.UnitTests</Product>
+        <LangVersion>8</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
