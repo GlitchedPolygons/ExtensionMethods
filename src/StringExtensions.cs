@@ -187,10 +187,10 @@ namespace GlitchedPolygons.ExtensionMethods
             {
                 stringBuilder.Append(hash[i].ToString(f));
             }
-            
+
             return stringBuilder.ToString();
         }
-        
+
         /// <summary>
         /// Converts a base64-encoded <see cref="String"/> to bytes, appending '=' padding characters to it if needed.
         /// </summary>
@@ -204,6 +204,69 @@ namespace GlitchedPolygons.ExtensionMethods
             }
 
             return Convert.FromBase64String(b64);
+        }
+
+        /// <summary>
+        /// Converts a base64-URL-encoded <see cref="String"/> to bytes, appending '=' padding characters to it if needed.
+        /// </summary>
+        /// <param name="b64url">The string to convert.</param>
+        /// <returns><c>Convert.FromBase64String(b64)</c></returns>
+        public static byte[] ToBytesFromBase64Url(this string b64url)
+        {
+            return ToBytesFromBase64
+            (
+                b64url
+                    .Replace('-', '+')
+                    .Replace('_', '/')
+            );
+        }
+
+        /// <summary>
+        /// Converts a <see cref="String"/> to a Base64-encoded string of its UTF-8 bytes.
+        /// </summary>
+        /// <param name="str"><see cref="String"/> to encode.</param>
+        /// <returns><see cref="String"/></returns>
+        public static string ToBase64String(this string str)
+        {
+            return str.UTF8GetBytes().ToBase64String();
+        }
+
+        /// <summary>
+        /// Converts a <see cref="String"/> to a Base64-URL-encoded string of its UTF-8 bytes.
+        /// </summary>
+        /// <param name="str"><see cref="String"/> to encode.</param>
+        /// <returns><see cref="String"/></returns>
+        public static string ToBase64UrlString(this string str)
+        {
+            return str.UTF8GetBytes()
+                .ToBase64String()
+                .Replace('+', '-')
+                .Replace('/', '_')
+                .TrimEnd('=');
+        }
+
+        /// <summary>
+        /// Base64-decodes a <see cref="String"/> into a UTF-8 <see cref="String"/>.
+        /// </summary>
+        /// <param name="str"><see cref="String"/> to decode.</param>
+        /// <returns><see cref="String"/></returns>
+        public static string FromBase64String(this string str)
+        {
+            return str.ToBytesFromBase64().UTF8GetString();
+        }
+
+        /// <summary>
+        /// Base64-URL-decodes a <see cref="String"/> into a UTF-8 <see cref="String"/>.
+        /// </summary>
+        /// <param name="str"><see cref="String"/> to decode.</param>
+        /// <returns><see cref="String"/></returns>
+        public static string FromBase64UrlString(this string str)
+        {
+            return str
+                .Replace('-', '+')
+                .Replace('_', '/')
+                .ToBytesFromBase64()
+                .UTF8GetString();
         }
     }
 }

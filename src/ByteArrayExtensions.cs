@@ -33,10 +33,10 @@ namespace GlitchedPolygons.ExtensionMethods
 
             int i = Convert.ToInt32(Math.Floor(Math.Log(byteCount, 1024)));
             double n = Math.Round(byteCount / Math.Pow(1024, i), 1);
-            
+
             return (Math.Sign(byteCount) * n).ToString(System.Globalization.CultureInfo.InvariantCulture) + SIZE_SUFFIX_STRINGS[i];
         }
-        
+
         /// <summary>
         /// Returns <c>Encoding.UTF8.GetString(byte[])</c>.
         /// </summary>
@@ -46,7 +46,7 @@ namespace GlitchedPolygons.ExtensionMethods
         {
             return Encoding.UTF8.GetString(bytes);
         }
-        
+
         /// <summary>
         /// Converts a <c>byte[]</c> array to a Base64-encoded <see cref="String"/> with optional removal of the padding '=' characters.
         /// </summary>
@@ -57,6 +57,19 @@ namespace GlitchedPolygons.ExtensionMethods
         {
             string output = Convert.ToBase64String(bytes);
             return omitPaddingChars ? output.TrimEnd('=') : output;
+        }
+
+        /// <summary>
+        /// Converts a <c>byte[]</c> array to a Base64-URL-encoded <see cref="String"/>.
+        /// </summary>
+        /// <param name="bytes">The bytes to encode.</param>
+        /// <returns>The Base64-URL-encoded string.</returns>
+        public static string ToBase64UrlString(this byte[] bytes)
+        {
+            return Convert.ToBase64String(bytes)
+                .Replace('+', '-')
+                .Replace('/', '_')
+                .TrimEnd('=');
         }
     }
 }
