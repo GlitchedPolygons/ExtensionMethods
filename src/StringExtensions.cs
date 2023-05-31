@@ -111,6 +111,9 @@ namespace GlitchedPolygons.ExtensionMethods
         /// <summary>
         /// Computes the MD5 hash of a <c>string</c>.
         /// </summary>
+        /// <remarks>
+        /// Do not use MD5 for anything security-related! Do NOT hash passwords using this!
+        /// </remarks>
         /// <param name="text">The text to hash.</param>
         /// <param name="toLowercase">Should the output hash be lowercased?</param>
         /// <returns>MD5 hash of the input string.</returns>
@@ -125,6 +128,9 @@ namespace GlitchedPolygons.ExtensionMethods
         /// <summary>
         /// Computes the SHA1 of a <c>string</c>.
         /// </summary>
+        /// <remarks>
+        /// Do not use MD5 for anything security-related! Do NOT hash passwords using this!
+        /// </remarks>
         /// <param name="text">The text to hash.</param>
         /// <param name="toLowercase">Should the output hash <c>string</c> be lowercased?.</param>
         /// <returns>SHA1 of the input string.</returns>

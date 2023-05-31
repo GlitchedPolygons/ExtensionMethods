@@ -3,6 +3,7 @@
 
 using System;
 using System.Text;
+using System.Security.Cryptography;
 
 namespace GlitchedPolygons.ExtensionMethods
 {
@@ -70,6 +71,95 @@ namespace GlitchedPolygons.ExtensionMethods
                 .Replace('+', '-')
                 .Replace('/', '_')
                 .TrimEnd('=');
+        }
+        
+        /// <summary>
+        /// Computes the MD5 hash of a <c>byte[]</c> array.
+        /// </summary>
+        /// <remarks>
+        /// Do not use MD5 for anything security-related! Do NOT hash passwords using this!
+        /// </remarks>
+        /// <param name="bytes">The <c>byte[]</c> array to hash.</param>
+        /// <param name="toLowercase">Should the output hash be lowercased?</param>
+        /// <returns>MD5 hash of the input string.</returns>
+        public static string MD5(this byte[] bytes, bool toLowercase = false)
+        {
+            using (HashAlgorithm md5 = System.Security.Cryptography.MD5.Create())
+            {
+                return HashBytes(bytes, toLowercase, md5);
+            }
+        }
+
+        /// <summary>
+        /// Computes the SHA1 of a <c>byte[]</c> array.
+        /// </summary>
+        /// <remarks>
+        /// Do not use MD5 for anything security-related! Do NOT hash passwords using this!
+        /// </remarks>
+        /// <param name="bytes">The <c>byte[]</c> array to hash.</param>
+        /// <param name="toLowercase">Should the output hash <c>string</c> be lowercased?.</param>
+        /// <returns>SHA1 of the input string.</returns>
+        public static string SHA1(this byte[] bytes, bool toLowercase = false)
+        {
+            using (HashAlgorithm algo = System.Security.Cryptography.SHA1.Create())
+            {
+                return HashBytes(bytes, toLowercase, algo);
+            }
+        }
+
+        /// <summary>
+        /// Computes the SHA256 of a <c>byte[]</c> array.
+        /// </summary>
+        /// <param name="bytes">The <c>byte[]</c> array to hash.</param>
+        /// <param name="toLowercase">Should the output hash <c>string</c> be lowercased?.</param>
+        /// <returns>SHA256 of the input string.</returns>
+        public static string SHA256(this byte[] bytes, bool toLowercase = false)
+        {
+            using (HashAlgorithm algo = System.Security.Cryptography.SHA256.Create())
+            {
+                return HashBytes(bytes, toLowercase, algo);
+            }
+        }
+
+        /// <summary>
+        /// Computes the SHA384 of a <c>byte[]</c> array.
+        /// </summary>
+        /// <param name="bytes">The <c>byte[]</c> array to hash.</param>
+        /// <param name="toLowercase">Should the output hash <c>string</c> be lowercased?.</param>
+        /// <returns>SHA384 of the input string.</returns>
+        public static string SHA384(this byte[] bytes, bool toLowercase = false)
+        {
+            using (HashAlgorithm algo = System.Security.Cryptography.SHA384.Create())
+            {
+                return HashBytes(bytes, toLowercase, algo);
+            }
+        }
+
+        /// <summary>
+        /// Computes the SHA512 of a <c>byte[]</c> array.
+        /// </summary>
+        /// <param name="bytes">The <c>byte[]</c> array to hash.</param>
+        /// <param name="toLowercase">Should the output hash <c>string</c> be lowercased?.</param>
+        /// <returns>SHA512 of the input string.</returns>
+        public static string SHA512(this byte[] bytes, bool toLowercase = false)
+        {
+            using (HashAlgorithm algo = System.Security.Cryptography.SHA512.Create())
+            {
+                return HashBytes(bytes, toLowercase, algo);
+            }
+        }
+
+        private static string HashBytes(byte[] bytes, bool toLowercase, HashAlgorithm algo)
+        {
+            var stringBuilder = new StringBuilder(128);
+            byte[] hash = algo.ComputeHash(bytes);
+            string f = toLowercase ? "x2" : "X2";
+            for (long i = 0; i < hash.LongLength; ++i)
+            {
+                stringBuilder.Append(hash[i].ToString(f));
+            }
+
+            return stringBuilder.ToString();
         }
     }
 }
