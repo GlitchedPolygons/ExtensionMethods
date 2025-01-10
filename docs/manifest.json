@@ -1,6 +1,5 @@
 {
-  "homepages": [],
-  "source_base_path": "C:/git/glitched-polygons/nuget/ExtensionMethods/docs/docfx_project",
+  "source_base_path": "/home/gp/git/github.com/ExtensionMethods/docs/docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -8,11 +7,9 @@
       "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.html",
-          "hash": "UbyeZKvU8GfHXZA1QEZ9wQ=="
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.ByteArrayExtensions.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -20,11 +17,9 @@
       "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.CollectionExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GlitchedPolygons.ExtensionMethods.CollectionExtensions.html",
-          "hash": "r83YlhFbn8DGa5ANcfOcDw=="
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.CollectionExtensions.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -32,11 +27,9 @@
       "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.DateTimeExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GlitchedPolygons.ExtensionMethods.DateTimeExtensions.html",
-          "hash": "IYcHLIJYlEfhP/KWv5PLxA=="
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.DateTimeExtensions.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -44,26 +37,29 @@
       "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.DirectoryInfoExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GlitchedPolygons.ExtensionMethods.DirectoryInfoExtensions.html",
-          "hash": "okCf3FEAok6CIlTbnTRwgw=="
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.DirectoryInfoExtensions.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "ReferencedXrefPropertyNotString"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.html",
-          "hash": "TcsOPWNCUXzDXWlkSQSK+w=="
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.IEnumerableExtensions.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.Int64Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.Int64Extensions.html"
+        }
+      },
       "version": ""
     },
     {
@@ -71,11 +67,9 @@
       "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.StringExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GlitchedPolygons.ExtensionMethods.StringExtensions.html",
-          "hash": "fJRXWaFfA7vZl7shOIS7pw=="
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.StringExtensions.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -83,11 +77,9 @@
       "source_relative_path": "api/GlitchedPolygons.ExtensionMethods.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GlitchedPolygons.ExtensionMethods.html",
-          "hash": "vbxd+Bgptl/GAIKNKCxOZQ=="
+          "relative_path": "api/GlitchedPolygons.ExtensionMethods.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -95,11 +87,9 @@
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
-          "relative_path": "api/index.html",
-          "hash": "vTWBGUNAbtKDbWDUxtJB1A=="
+          "relative_path": "api/index.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -107,11 +97,9 @@
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "IbGXg3IKzNUWFYnR0q7yCg=="
+          "relative_path": "api/toc.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -119,11 +107,9 @@
       "source_relative_path": "articles/intro.md",
       "output": {
         ".html": {
-          "relative_path": "articles/intro.html",
-          "hash": "BDdVrcILgi87Ok+echedNA=="
+          "relative_path": "articles/intro.html"
         }
       },
-      "is_incremental": true,
       "version": ""
     },
     {
@@ -131,26 +117,19 @@
       "source_relative_path": "articles/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "articles/toc.html",
-          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+          "relative_path": "articles/toc.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
-          "relative_path": "index.html",
-          "hash": "DJyKLnDRjAlUsS/LKK6Nww=="
+          "relative_path": "index.html"
         }
       },
-      "is_incremental": true,
       "version": ""
     },
     {
@@ -158,56 +137,12 @@
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
-          "relative_path": "toc.html",
-          "hash": "Sg+nKmnHP++YKMT39ruhpw=="
+          "relative_path": "toc.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     }
   ],
-  "incremental_info": [
-    {
-      "status": {
-        "can_incremental": true,
-        "incrementalPhase": "build",
-        "total_file_count": 0,
-        "skipped_file_count": 0
-      },
-      "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 3
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 7,
-          "skipped_file_count": 5
-        }
-      }
-    },
-    {
-      "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
-        "incrementalPhase": "postProcessing",
-        "total_file_count": 0,
-        "skipped_file_count": 0
-      },
-      "processors": {}
-    }
-  ],
-  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"
