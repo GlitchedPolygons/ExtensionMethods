@@ -1,5 +1,5 @@
 version: 1.0.{build}
-image: Ubuntu2404
+image: Ubuntu2204
 environment:
   DOTNET_CLI_TELEMETRY_OPTOUT: 1
 build_script:
