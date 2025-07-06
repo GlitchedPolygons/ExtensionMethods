@@ -15,7 +15,7 @@ namespace GlitchedPolygons.ExtensionMethods
         /// </summary>
         /// <param name="collection">The list to check.</param>
         /// <returns><c>true</c> if the passed <paramref name="collection"/> is either <c>null</c> or empty; otherwise, <c>false</c>.</returns>
-        public static bool NullOrEmpty<T>(this IReadOnlyCollection<T> collection)
+        public static bool NullOrEmptyReadOnly<T>(this IReadOnlyCollection<T> collection)
         {
             return collection is null || collection.Count == 0;
         }
@@ -26,7 +26,7 @@ namespace GlitchedPolygons.ExtensionMethods
         /// </summary>
         /// <param name="collection">The collection to check.</param>
         /// <returns><c><paramref name="collection"/> != null &amp;&amp; <paramref name="collection"/>.Length > 0</c></returns>
-        public static bool NotNullNotEmpty<T>(this IReadOnlyCollection<T> collection)
+        public static bool NotNullNotEmptyReadOnly<T>(this IReadOnlyCollection<T> collection)
         {
             return collection != null && collection.Count > 0;
         }
@@ -39,7 +39,7 @@ namespace GlitchedPolygons.ExtensionMethods
         /// <param name="a">Collection to compare.</param>
         /// <param name="b">Collection to compare.</param>
         /// <returns>Whether the two collections have the same elements.</returns>
-        public static bool UnorderedEqual<T>(this IReadOnlyCollection<T> a, IReadOnlyCollection<T> b)
+        public static bool UnorderedEqualReadOnly<T>(this IReadOnlyCollection<T> a, IReadOnlyCollection<T> b)
         {
             return CollectionUnorderedEqualityCheck.UnorderedEqual(a, b);
         }

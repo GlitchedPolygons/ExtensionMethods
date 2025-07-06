@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Xunit;
 
 namespace GlitchedPolygons.ExtensionMethods.UnitTests
@@ -36,7 +35,7 @@ namespace GlitchedPolygons.ExtensionMethods.UnitTests
             IReadOnlyCollection<string> id1 = ["test2", "test1", "test3", "test4", "test5", "test6", "test7"];
             IReadOnlyCollection<string> id2 = ["test1", "test2", "test3", "test4", "test5", "test6", "test7"];
 
-            Assert.True(id1.UnorderedEqual(id2));
+            Assert.True(id1.UnorderedEqualReadOnly(id2));
         }
 
         [Fact]
@@ -45,7 +44,7 @@ namespace GlitchedPolygons.ExtensionMethods.UnitTests
             IReadOnlyCollection<string> id1 = ["test_WRONG", "test1", "test3", "test4", "test5", "test6", "test7"];
             IReadOnlyCollection<string> id2 = ["test1", "test2", "test3", "test4", "test5", "test6", "test7"];
 
-            Assert.False(id1.UnorderedEqual(id2));
+            Assert.False(id1.UnorderedEqualReadOnly(id2));
         }
 
         #endregion

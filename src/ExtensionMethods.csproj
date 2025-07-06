@@ -12,10 +12,10 @@
         <PackageTags>c# extension methods utility classes useful snippets code snippet</PackageTags>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
-        <PackageVersion>1.5.0</PackageVersion>
+        <PackageVersion>1.5.1</PackageVersion>
         <TargetFramework>netstandard2.1</TargetFramework>
-        <AssemblyVersion>1.5.0</AssemblyVersion>
-        <FileVersion>1.5.0</FileVersion>
+        <AssemblyVersion>1.5.1</AssemblyVersion>
+        <FileVersion>1.5.1</FileVersion>
         <LangVersion>8</LangVersion>
     </PropertyGroup>
 
